@@ -1,0 +1,23 @@
+{
+  "name": "TypeScript-AMD-Browser",
+  "version": "1.0.0",
+  "description": "Example build of TypeScript codebase with AMD module support for browser.",
+  "scripts": {
+    "startServer": "node_modules/.bin/browser-sync start --s \"dist\" --f \"dist\" --port 3000 --reload-debounce 1500 --no-open --no-ui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serbanghita/TypeScript-AMD-Browser.git"
+  },
+  "author": "Serban Ghita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serbanghita/TypeScript-AMD-Browser/issues"
+  },
+  "homepage": "https://github.com/serbanghita/TypeScript-AMD-Browser",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "typescript": "^2.2.1"
+  }
+}
